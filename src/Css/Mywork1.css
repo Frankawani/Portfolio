@@ -1,0 +1,46 @@
+.mywork {
+  height: 100vh;
+  background-color: #111;
+  background: rgba(0, 0, 0, 0.9) url("../Images/opened1.png");
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 1500px;
+}
+
+.mywork__contents {
+  padding-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100%;
+}
+.mywork__row {
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.mywork__header {
+  margin: 12px 0px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+}
+.mywork__space {
+  margin-top: 30px;
+}
+
+.socials {
+  margin-top: -40px;
+  display: flex;
+  justify-content: flex-end;
+}
+.socials__casing {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 130px;
+}

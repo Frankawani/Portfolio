@@ -1,0 +1,139 @@
+.About {
+  height: 100vh;
+  object-fit: contain;
+  background-color: #111;
+  background: rgba(0, 0, 0, 0.9) url("../Images/opened1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
+.About__contents {
+  padding-top: 100px;
+  color: white;
+  margin-left: 160px;
+}
+.about__title {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.About__description {
+  max-width: 400px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.About_further {
+  max-width: 500px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.about__contacts {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+}
+
+.about__contact {
+  display: flex;
+}
+
+.second {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.about__first {
+  color: gray;
+  padding-right: 5px;
+}
+
+.About__buttons {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.About__button {
+  padding: 10px;
+  border-radius: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 900;
+  border-style: none;
+}
+
+.About__socialIcons {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.About__socialIconsCase {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 130px;
+}
+
+.About__socialIconll {
+  margin-left: -4px;
+}
+
+.about__skillsTitle {
+  max-width: 400px;
+  margin-top: 10px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.about__skillslists {
+  display: flex;
+  margin-left: 10px;
+  max-width: 300px;
+
+  justify-content: space-between;
+  line-height: 30px;
+}
+
+@media all and (max-width: 500px) {
+  .About {
+    background-size: cover;
+    max-width: 100%;
+  }
+
+  .About__contents {
+    margin-left: 25px;
+    padding-top: 190px;
+    margin-right: 15px;
+  }
+
+  .about__first {
+    font-size: 15px;
+  }
+  .about__contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .free {
+    margin-right: 10px;
+  }
+
+  .About__button {
+    margin-left: 40px;
+  }
+  .About__socialIcons {
+    margin-top: 70px;
+
+    margin-right: -8px;
+  }
+}

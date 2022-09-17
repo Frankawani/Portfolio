@@ -1,0 +1,115 @@
+.contact {
+  height: 100vh;
+  object-fit: contain;
+  background-color: #111;
+  background: rgba(0, 0, 0, 0.9) url("../Images/opened1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
+.contact__contents {
+  padding-top: 100px;
+  color: white;
+  margin-left: 160px;
+  padding-left: 180px;
+}
+
+.contact__contents > h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.contact__description {
+  max-width: 400px;
+}
+
+.contact__description > h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.contact__description > p {
+  font-size: 20px;
+}
+
+.contact_further {
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.contact__buttons {
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact__button {
+  padding: 10px;
+  border-radius: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 900;
+  border-style: none;
+}
+
+.contact__socialIcons {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.contact__socialIconsCase {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 130px;
+}
+
+.contact__socialIconll {
+  margin-left: -4px;
+}
+
+.contact__formpack {
+  max-width: 700px;
+  height: 400px;
+  background-color: #111;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact__form {
+  width: 100%;
+}
+.forward {
+  width: 100%;
+}
+
+input {
+  width: 98%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 7px;
+}
+
+textarea {
+  width: 98%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.submit {
+  margin-top: 30px;
+}
+
+span {
+  margin-left: 7px;
+}

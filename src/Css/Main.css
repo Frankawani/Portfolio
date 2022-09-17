@@ -1,0 +1,101 @@
+.main {
+  height: 100vh;
+  object-fit: contain;
+  background-color: #111;
+  background: rgba(0, 0, 0, 0.9) url("../Images/opened1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
+.main__contents {
+  padding-top: 260px;
+  color: white;
+  margin-left: 160px;
+}
+
+.main__contents > h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.main__description {
+  max-width: 400px;
+}
+
+.main__description > h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.main__description > p {
+  font-size: 20px;
+}
+
+.main_further {
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.main__buttons {
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__button {
+  padding: 10px;
+  border-radius: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 900;
+  border-style: none;
+}
+
+.main__socialIcons {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.main__socialIconsCase {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 130px;
+}
+
+.main__socialIconll {
+  margin-left: -4px;
+}
+@media all and (max-width: 500px) {
+  .main__contents {
+    margin-left: 25px;
+    padding-top: 480px;
+    margin-right: 15px;
+  }
+
+  .main {
+    background-size: cover;
+    max-width: 100%;
+  }
+
+  .main__description {
+    max-width: 350px;
+  }
+
+  .main__description > h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .main_further {
+    margin-bottom: 30px;
+  }
+  .main__socialIcons {
+    margin-top: 50px;
+    margin-right: 15px;
+  }
+}
